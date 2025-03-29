@@ -8,7 +8,7 @@ Expected Output:
 
 Status code: 200 OK
 
-Response body containing book details (title, author, etc.)
+Response body with book details (title, author, etc.)
 
 2. POST /books
 Test Case: Add a new book.
@@ -26,7 +26,7 @@ Expected Output:
 
 Status code: 201 Created
 
-Response body with new book details.
+Response body containing new book details.
 
 3. PATCH /books/{id}
 Test Case: Update book information.
