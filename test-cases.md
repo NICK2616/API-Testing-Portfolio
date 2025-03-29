@@ -9,7 +9,7 @@ Status code: 200 OK
 
 Response body contains book details (title, author, etc.)
 
-POST /books
+2. POST /books
 Test Case: Add a new book.
 
 Input:
@@ -54,3 +54,4 @@ Expected Output:
 Status code: 204 No Content
 
 Response body empty or a success message.
+
