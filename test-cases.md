@@ -1,3 +1,4 @@
+Test Cases for API Endpoints
 1. GET /books/{id}
 Test Case: Retrieve a book by ID.
 
@@ -7,7 +8,7 @@ Expected Output:
 
 Status code: 200 OK
 
-Response body contains book details (title, author, etc.)
+Response body containing book details (title, author, etc.)
 
 2. POST /books
 Test Case: Add a new book.
@@ -25,7 +26,7 @@ Expected Output:
 
 Status code: 201 Created
 
-Response body with book details.
+Response body containing new book details.
 
 3. PATCH /books/{id}
 Test Case: Update book information.
@@ -42,7 +43,7 @@ Expected Output:
 
 Status code: 200 OK
 
-Response body showing the updated book details.
+Response body showing updated book details.
 
 4. DELETE /books/{id}
 Test Case: Delete a book by ID.
@@ -53,5 +54,4 @@ Expected Output:
 
 Status code: 204 No Content
 
-Response body empty or a success message.
-
+Response body empty or success message.
