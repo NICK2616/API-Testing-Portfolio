@@ -26,7 +26,7 @@ Expected Output:
 
 Status code: 201 Created
 
-Response body containing new book details.
+Response body with new book details.
 
 3. PATCH /books/{id}
 Test Case: Update book information.
