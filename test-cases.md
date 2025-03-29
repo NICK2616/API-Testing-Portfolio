@@ -1,3 +1,4 @@
+1. GET /books/{id}
 Test Case: Retrieve a book by ID.
 
 Input: GET /books/1
@@ -8,23 +9,48 @@ Status code: 200 OK
 
 Response body contains book details (title, author, etc.)
 
+POST /books
 Test Case: Add a new book.
+
+Input:
+
+json
+Copy
+Edit
 {
   "title": "New Book",
   "author": "Author Name"
 }
-tatus code: 201 Created
+Expected Output:
 
-Response body with book details
+Status code: 201 Created
 
-PATCH /books/{id}
+Response body with book details.
+
+3. PATCH /books/{id}
 Test Case: Update book information.
 
-PATCH /books/{id}
-Test Case: Update book information.
+Input:
 
-PATCH /books/{id}
-Test Case: Update book information.
+json
+Copy
+Edit
+{
+  "title": "Updated Book Title"
+}
+Expected Output:
 
-PATCH /books/{id}
-Test Case: Update book information.
+Status code: 200 OK
+
+Response body showing the updated book details.
+
+4. DELETE /books/{id}
+Test Case: Delete a book by ID.
+
+Input: DELETE /books/1
+
+Expected Output:
+
+Status code: 204 No Content
+
+Response body empty or a success message.
